@@ -1,1 +1,0 @@
-# apache_php_mysql_howto
