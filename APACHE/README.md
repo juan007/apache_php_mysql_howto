@@ -7,7 +7,9 @@
 1. [DOWNLOAD THE FILES](#download-the-files)
 1. [INSTALL](#install)
 3. [START THE SERVICE](#start-the-service)
-
+4. [CONFIGURE 2 SITES](#configure-2-sites)
+5. [DISABLE DIRECTORY LISTING](#disable-directory-listing)
+6. [CREATE A CERTIFICATE AND CONFIGURE SSL IN ONE OF THE SITES](#create-a-certificate-and-configure-ssl-in-one-of-the-sies)
 
 ---
 
@@ -98,7 +100,7 @@ Now that Apache is running lets configure 2 sites, the names of the sites can be
 - ![download](/images/apache/apache_20.png)
 - ![download](/images/apache/apache_21.png)
 ---
-## DISABLE DIRECTORY LISTENING
+## DISABLE DIRECTORY LISTING
 Finally lets disable directory listing because at the moment it is enabled.  We can verify it is enabled by changing the name of any od the index.html files and going to the corresponding site in the browser.
 - ![download](/images/apache/apache_22.png)
 
