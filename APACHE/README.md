@@ -9,7 +9,7 @@
 3. [START THE SERVICE](#start-the-service)
 4. [CONFIGURE 2 SITES](#configure-2-sites)
 5. [DISABLE DIRECTORY LISTING](#disable-directory-listing)
-6. [CREATE A CERTIFICATE AND CONFIGURE SSL IN ONE OF THE SITES](#create-a-certificate-and-configure-ssl-in-one-of-the-sies)
+6. [CREATE A CERTIFICATE AND CONFIGURE SSL IN ONE OF THE SITES](#create-a-certificate-and-configure-ssl-in-one-of-the-sites)
 
 ---
 
