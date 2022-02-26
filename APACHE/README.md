@@ -100,3 +100,56 @@ Finally lets disable directory listing because at the moment it is enabled.  We 
 - ![download](/images/apache_23.png)
 4. Restart Apache and browse to the site to verify directory listing is disabled.
 - ![download](/images/apache_24.png)
+
+## CONFIGURE SSL IN ONE OF THE SITES
+1. Navigate to `c:\Apache24\conf`, copy the openssl.cnf file.
+2. Paste the file in `c:\Apache24\bin`
+- ![download](/images/apache_25.png)
+3. Open the command prompt as administrator and type `cd c:\Apache24\bin` to go to the bin folder.
+4. Once there type te following command.
+```
+openssl req -config openssl.cnf -new -out htv.csr -keyout htv.pem
+```
+5. Enter the required information
+    - ![download](/images/apache_26.png)
+    - This 2 files should be created (you can use the names you wish)
+    - ![download](/images/apache_27.png)
+6. Type the following command in the command prompt.
+```
+openssl rsa -in htv.pem -out htv.key
+```
+7. Type the following command
+```
+openssl x509 -in htv.csr -out htv.crt -req -signkey htv.key -days 900
+```
+8. The following files should appear:
+- ![download](/images/apache_28.png)
+9.  Move the created files to the conf folder
+- ![download](/images/apache_29.png)
+10. Open the httpd.conf file and uncomment the LoadModule line by deleting the # symbol.
+- ![download](/images/apache_30.png)
+11. Go to the extra folder and open the file httpd-vhosts.conf file and add `Listen 443` so that the server listens to the 443 port.
+- ![download](/images/apache_31.png)
+12. Add the following code to the end of the file to include ssl in the site.
+```
+<VirtualHost *:443>
+    ServerName mysecondsite.jr
+    DocumentRoot "${SRVROOT}/htdocs/mysecondsite.jr"
+    SSLEngine on
+    SSLCertificateFile "C:\Apache24\conf\htv.crt"
+    SSLCertificateKeyFile "C:\Apache24\conf\htv.key"
+</VirtualHost>
+```
+- ![download](/images/apache_32.png)
+13. In order for the server to redirect port 80 to port 443 include the following code in the port 80 configuration section.
+```
+Redirect permanent / https://mysecondsite.jr
+```
+- ![download](/images/apache_33.png)
+14. Restart Apache
+15. Test your site in the browser of your choice, if promptet click Advanced.
+- ![download](/images/apache_34.png)
+16. If prompted click continue
+- ![download](/images/apache_35.png)
+17. The final result should look as follows:
+- ![download](/images/apache_36.png)
