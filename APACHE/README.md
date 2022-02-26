@@ -89,7 +89,7 @@ Now that Apache is running lets configure 2 sites, the names of the sites can be
 13. Once the server is restarted open your web browser and navigate to your sites.
 - ![download](/images/apache_20.png)
 - ![download](/images/apache_21.png)
-
+---
 ## DISABLE DIRECTORY LISTENING
 Finally lets disable directory listing because at the moment it is enabled.  We can verify it is enabled by changing the name of any od the index.html files and going to the corresponding site in the browser.
 - ![download](/images/apache_22.png)
@@ -100,8 +100,8 @@ Finally lets disable directory listing because at the moment it is enabled.  We 
 - ![download](/images/apache_23.png)
 4. Restart Apache and browse to the site to verify directory listing is disabled.
 - ![download](/images/apache_24.png)
-
-## CONFIGURE SSL IN ONE OF THE SITES
+---
+## CREATE A CERTIFICATE AND CONFIGURE SSL IN ONE OF THE SITES
 1. Navigate to `c:\Apache24\conf`, copy the openssl.cnf file.
 2. Paste the file in `c:\Apache24\bin`
 - ![download](/images/apache_25.png)
@@ -122,6 +122,7 @@ openssl rsa -in htv.pem -out htv.key
 ```
 openssl x509 -in htv.csr -out htv.crt -req -signkey htv.key -days 900
 ```
+- ![download](/images/apache_37.png)
 8. The following files should appear:
 - ![download](/images/apache_28.png)
 9.  Move the created files to the conf folder
