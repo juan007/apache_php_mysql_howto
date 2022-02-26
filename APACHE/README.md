@@ -4,9 +4,9 @@
 
 
 ## Table of Contents
-1. [DOWNLOAD THE FILES](##DOWNLOAD-THE-FILES)
-1. [INSTALL](##INSTALL)
-3. [START THE SERVICE](##START-THE-SERVICE)
+1. [DOWNLOAD THE FILES](#download-the-files)
+1. [INSTALL](#install)
+3. [START THE SERVICE](#start-the-service)
 
 
 ---
