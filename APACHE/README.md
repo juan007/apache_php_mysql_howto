@@ -1,8 +1,9 @@
 
 # APACHE INSTALLATION AND SITE CONFIGURATION - WINDOWS 10
 - Apache version used in this tutorial: 2.4.52
-
-
+- Prerequisit: install Visual C++ Redistributable for Visual Studio 2015-2019 x64
+- Based on:
+---
 ## Table of Contents
 1. [DOWNLOAD THE FILES](#download-the-files)
 1. [INSTALL](#install)
@@ -16,7 +17,7 @@
 ## DOWNLOAD THE FILES
 
 
-1. From [Apache VS16 binaries and modules](https://www.apachelounge.com/download/) download (apachelounge.com) download latest version of Apache x.x.X Win64 (For this tutorial we are going to use the 2.4.52 version).
+1. From [Apache VS16 binaries and modules](https://www.apachelounge.com/download/) download the latest version of Apache x.x.X Win64 (For this tutorial we are going to use the 2.4.52 version).
 - ![download](/images/apache/apache_1.png)
 
 2. Once the download is done go to the Downloads folder, extract the files and copy the Apache24 folder to c:/Apache24
