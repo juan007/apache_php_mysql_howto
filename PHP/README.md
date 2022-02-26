@@ -24,7 +24,9 @@ In order for the Operating System to find the PHP executable we need to change t
 - ![download](/images/php/php_5.png)
 4. Click new, add `C:\php`, and click OK in the current prompt and the next 2 prompts below.
 - ![download](/images/php/php_6.png)
-5. Next we are going to configure PHP as a PHP module. 
+---
+## PHP MODULE AND index.php
+1. Next we are going to configure PHP as a PHP module. 
 Add the following text at the end of the C:\Apache24\conf\httpd.conf file:
 ```
 # PHP8 module
@@ -34,16 +36,19 @@ AddType application/x-httpd-php .php
 ```
 The file should look as the following screenshot:
 - ![download](/images/php/php_7.png)
-6. In the same file add index.php under `<IfModule dir_module>` , next to DirectoryIndex so that the server also looks for this as a default file when hitting the root folder.  Save the changes.
+2. In the same file add index.php under `<IfModule dir_module>` , next to DirectoryIndex so that the server also looks for this as a default file when hitting the root folder.  Save the changes.
 - ![download](/images/php/php_8.png)
-7. To test the configuration is correct lets create an index.php file under `C:\Apache24\htdocs\mysite.jr`(or the site of your preference).
-8. Let’s edit that file adding the following PHP code. 
+3. Restart Apache for the changes to take effect.
+---
+## TEST
+1. To test the configuration is correct lets create an index.php file under `C:\Apache24\htdocs\mysite.jr`(or the site of your preference).
+2. Let’s edit that file adding the following PHP code. 
 ```
 <?php
 phpinfo();
 ?>
 ```
 - ![download](/images/php/php_9.png)
-9. Restart Apache for the changes to take effect.
-10. Finally let’s navigate to the site and test everything works correctly.  The browser must show a page similar to the following:
+3. Finally let’s navigate to the site and test everything works correctly.  The browser must show a page similar to the following:
 - ![download](/images/php/php_10.png)
+---
