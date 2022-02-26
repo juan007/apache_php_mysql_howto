@@ -34,7 +34,7 @@ C:\mysql\bin\mysqld.exe --initialize-insecure --user=mysql
 ```
 - ![download](/images/mysql/mysql_5.png)
 ---
-##MYSQL AS AUTO STARTING WINDOWS SERVICE
+## MYSQL AS AUTO STARTING WINDOWS SERVICE
 1. Install MySQL as an auto starting Windows service by running the following command:
 ```
 C:\mysql\bin\mysqld.exe –install
@@ -43,7 +43,8 @@ C:\mysql\bin\mysqld.exe –install
 
 2. Start the services from the services console.
 - ![download](/images/mysql/mysql_7.png)
-##TEST
+---
+## TEST
 1. Open the command prompt
 2. Type the following command.
 ```
@@ -55,3 +56,4 @@ show databases;
 ```
 4. If everything is working you should see a screen similar to this one:
 - ![download](/images/mysql/mysql_8.png)
+---
