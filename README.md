@@ -1,7 +1,7 @@
 # APACHE, PHP AND MySQL INSTALLATION TUTORIALS
 ## APACHE - SSL
-- For the APACHE - SSL tutorial go [HERE](/APACHE).
+- For the APACHE - SSL tutorial click [HERE](/APACHE).
 ## PHP
-- For the PHP tutorial go [HERE](/PHP).
+- For the PHP tutorial click [HERE](/PHP).
 ## MySQL
-- For the MySQL tutorial go [HERE](/MYSQL).
+- For the MySQL tutorial click [HERE](/MYSQL).

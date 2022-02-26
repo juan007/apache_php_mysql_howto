@@ -2,7 +2,14 @@
 MySQL version used in this tutorial: MySQL Community Server 8.0.28
 
 ---
+## Table of Contents
+1. [DOWNLOAD THE FILES](#download-the-files)
+1. [SPECIFY FILE APPLICATION AND DATA FOLDERS](#specify-file-application-and-data-folders)
+3. [INITIALIZE DATA FOLDER AND root USER](#initialize-data-folder-and-root-user)
+4. [CONFIGURE MYSQL AS AUTO STARTING WINDOWS SERVICE](#configure-mysql-as-auto-starting-windows-service)
+5. [TEST](#test)
 
+---
 ## DOWNLOAD THE FILES
 1. Download MySQL zip file from [here](https://dev.mysql.com/downloads/mysql/)
 
@@ -34,7 +41,7 @@ C:\mysql\bin\mysqld.exe --initialize-insecure --user=mysql
 ```
 - ![download](/images/mysql/mysql_5.png)
 ---
-## MYSQL AS AUTO STARTING WINDOWS SERVICE
+## CONFIGURE MYSQL AS AUTO STARTING WINDOWS SERVICE
 1. Install MySQL as an auto starting Windows service by running the following command:
 ```
 C:\mysql\bin\mysqld.exe –install
