@@ -1,7 +1,7 @@
-# APACHE, PHP AND MySQL INSTALLATION GUIDE
+# APACHE, PHP AND MySQL INSTALLATION TUTORIALS
 ## APACHE - SSL
-- For the APACHE - SSL guide go [HERE](/APACHE).
+- For the APACHE - SSL tutorial go [HERE](/APACHE).
 ## PHP
-- For the PHP guide go [HERE](/PHP).
+- For the PHP tutorial go [HERE](/PHP).
 ## MySQL
-- For the PHP guide go [HERE](/MYSQL).
+- For the PHP tutorial go [HERE](/MYSQL).
