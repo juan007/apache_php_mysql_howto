@@ -1,6 +1,16 @@
 # PHP INSTALLATION - WINDOWS 10
-PHP version used in this tutorial: PHP 8.1 (8.1.3)
 
+PHP version used in this tutorial: PHP 8.1 (8.1.3)
+<br>Prerequisite:  Install Apache
+<br> Adapted from: [How to Install PHP on Windows 10](https://www.sitepoint.com/how-to-install-php-on-windows/)
+
+---
+
+## Table of Contents
+1. [DOWNLOAD THE FILES AND RENAME](#download-the-files-and-rename)
+1. [CONFIGURE ENVIROMENT VARIABLE](#configure-enviroment-variable)
+3. [PHP MODULE AND DEFAULT PHP FILE](#php-module-and-default-php-file)
+4. [TEST](#test)
 ---
 
 ## DOWNLOAD THE FILES AND RENAME
@@ -15,7 +25,7 @@ PHP version used in this tutorial: PHP 8.1 (8.1.3)
 - ![download](/images/php/php_3.png)
 
 ---
-## ENVIROMENT VARIABLE
+## CONFIGURE ENVIROMENT VARIABLE
 In order for the Operating System to find the PHP executable we need to change the PATH environment variable.
 1. In the Windows search bar type “edit the” and open “Edit the system environment variables”.
 2. Click the advanced tab and click Environmental Variables…
@@ -25,7 +35,7 @@ In order for the Operating System to find the PHP executable we need to change t
 4. Click new, add `C:\php`, and click OK in the current prompt and the next 2 prompts below.
 - ![download](/images/php/php_6.png)
 ---
-## PHP MODULE AND index.php
+## PHP MODULE AND DEFAULT PHP FILE
 1. Next we are going to configure PHP as a PHP module. 
 Add the following text at the end of the C:\Apache24\conf\httpd.conf file:
 ```

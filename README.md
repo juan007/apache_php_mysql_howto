@@ -1,7 +1,7 @@
 # APACHE, PHP AND MySQL INSTALLATION TUTORIALS
-## APACHE - SSL
-- For the APACHE - SSL tutorial go [HERE](/APACHE).
-## PHP
-- For the PHP tutorial go [HERE](/PHP).
-## MySQL
-- For the MySQL tutorial go [HERE](/MYSQL).
+## APACHE INSTALLATION, SITE CONFIGURATION AND SSL - WINDOWS 10
+- For the APACHE - SSL tutorial click [HERE](/APACHE).
+## PHP INSTALLATION - WINDOWS 10
+- For the PHP tutorial click [HERE](/PHP).
+## MYSQL INSTALLATION - WINDOWS 10
+- For the MySQL tutorial click [HERE](/MYSQL).
