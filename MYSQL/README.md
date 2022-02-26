@@ -1,5 +1,6 @@
 # MYSQL INSTALLATION - WINDOWS 10
 MySQL version used in this tutorial: MySQL Community Server 8.0.28
+<br> Adapted from: [How to Install MySQL](https://www.sitepoint.com/how-to-install-mysql/)
 
 ---
 ## Table of Contents

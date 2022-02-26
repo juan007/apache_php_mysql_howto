@@ -1,6 +1,8 @@
 # PHP INSTALLATION - WINDOWS 10
 
 PHP version used in this tutorial: PHP 8.1 (8.1.3)
+<br>Prerequisite:  Install Apache
+<br> Adapted from: [How to Install PHP on Windows 10](https://www.sitepoint.com/how-to-install-php-on-windows/)
 
 ---
 

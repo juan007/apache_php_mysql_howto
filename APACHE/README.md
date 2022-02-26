@@ -1,8 +1,9 @@
 
-# APACHE INSTALLATION AND SITE CONFIGURATION - WINDOWS 10
-- Apache version used in this tutorial: 2.4.52
-- Prerequisit: install Visual C++ Redistributable for Visual Studio 2015-2019 x64
-- Based on:
+# APACHE INSTALLATION, SITE CONFIGURATION AND SSL - WINDOWS 10
+Apache version used in this tutorial: 2.4.52
+<br>Prerequisite: Install Visual C++ Redistributable for Visual Studio 2015-2019 x64
+<br>Adapted from: [How to Install Apache Web Server on Windows](https://www.sitepoint.com/how-to-install-apache-on-windows/) and [Apache SSL Virtual Hosts and Redirects on Windows](https://www.youtube.com/watch?v=YKaxo_A9gdg)
+
 ---
 ## Table of Contents
 1. [DOWNLOAD THE FILES](#download-the-files)
