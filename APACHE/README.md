@@ -1,5 +1,5 @@
 # APACHE INSTALLATION AND SITE CONFIGURATION - WINDOWS 10
-Apache version for this tutorial: 2.4.52
+Apache version used in this tutorial: 2.4.52
 
 ---
 
