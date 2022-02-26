@@ -4,4 +4,4 @@
 ## PHP
 - For the PHP tutorial go [HERE](/PHP).
 ## MySQL
-- For the PHP tutorial go [HERE](/MYSQL).
+- For the MySQL tutorial go [HERE](/MYSQL).
