@@ -46,11 +46,11 @@ C:\mysql\bin\mysqld.exe –install
 ---
 ## TEST
 1. Open the command prompt
-2. Type the following command.
+2. Type the following command to login (since this is a development enviroment we did not specify a password for the root user).
 ```
 C:\mysql\bin\mysql.exe -u root
 ```
-3. Onece mysql shows type the following SQL command:
+3. Onece `mysql>` shows type the following SQL command:
 ```
 show databases;
 ```
