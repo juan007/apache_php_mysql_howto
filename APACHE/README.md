@@ -1,5 +1,13 @@
+
 # APACHE INSTALLATION AND SITE CONFIGURATION - WINDOWS 10
-Apache version used in this tutorial: 2.4.52
+- Apache version used in this tutorial: 2.4.52
+
+
+## Table of Contents
+1. [DOWNLOAD THE FILES](##DOWNLOAD-THE-FILES)
+1. [INSTALL](##INSTALL)
+3. [START THE SERVICE](##START-THE-SERVICE)
+
 
 ---
 
