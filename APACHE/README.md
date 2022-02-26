@@ -50,3 +50,16 @@ Now that Apache is running lets configure 2 sites, the names of the sites can be
 1. In the file explorer Go to `C:\Apache24\conf` and open the file httpd.conf
 2. In that file find the text `# Include conf/extra/httpd-vhosts.conf`.  Erase the # to uncomment the line.  Save your changes.  We do this so that the server looks for additional configurations on the httpd-vhosts.conf file.
 - ![download](/images/apache_11.png)
+3. Now go to `C:\Apache24\conf\extra` and open the file httpd-vhosts
+4. At the end of the file add the following bindings.  We are specifying that we want to add the sites under port 80, with an specific ServerName(mysite.jr and mysecondsite.jr) and the specified folder where the files of each site will be placed (Apache24/htdocs/mysite.jr and Apache24/htdocs/mysecondsite.jr).  To add the bindigs copy and paste the following:
+```
+<VirtualHost *:80>
+  	    <br> ServerName mysite.jr
+        DocumentRoot "${SRVROOT}/htdocs/mysite.jr"
+    </VirtualHost>
+
+<VirtualHost *:80>
+    ServerName mysecondsite.jr
+    DocumentRoot "${SRVROOT}/htdocs/mysecondsite.jr"
+</VirtualHost>`
+```
