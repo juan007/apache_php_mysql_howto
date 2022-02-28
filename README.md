@@ -5,3 +5,5 @@
 - For the PHP tutorial click [HERE](/PHP).
 ## MYSQL INSTALLATION - WINDOWS 10
 - For the MySQL tutorial click [HERE](/MYSQL).
+## FINAL CONFIG EXAMPLE FILES
+- For example config files go [HERE](/CONFIG_FILES).
